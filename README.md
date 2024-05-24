@@ -82,7 +82,7 @@ There is a `docker-compose.yml` file for starting Mongo cluster.
 docker-compose up
 ```
 
-### Dropping MongoDB Collections
+#### Dropping MongoDB Collections
 
 To drop collections in MongoDB, use the drop() method. This is required to avoid
 errors.
@@ -97,7 +97,7 @@ db.user_versions.drop();
 db.users.drop();
 ```
 
-### Run the project
+#### Run the project
 
 Set the environment variables for the database name **(DB_NAME)** and URL
 **(DB_URL)**:
